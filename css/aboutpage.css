@@ -1,0 +1,14 @@
+
+.ab-body{
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    align-content:center;
+    justify-content: center;
+}
+.bio{
+    font-size: 2vw;
+}
+
+img{
+    border-radius: 2%;
+}
