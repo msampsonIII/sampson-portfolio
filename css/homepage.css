@@ -24,6 +24,16 @@ a{
     width: 100vw;
 }
 
+.left-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1vw;
+  margin-top: 3vh;
+  font-size: 2vw;
+  font-style: italic;
+}
+
 .hp-header{
     height: 100%;
     /* background-color: whitesmoke; */
@@ -92,12 +102,16 @@ padding: 2.5vw;
 }
 
 .hp-footer{
-  /* opacity: 90%; */
-  /* background-color: whitesmoke; */
+  position:fixed;
+  bottom:0;
+  /* left:0; */
   color: black;
+  background-color: white;
+  width:100%;
   display:flex;
   align-content: center;
   padding: 2vw;
+  padding-right:0;
 }
 .footer-text{
   margin-top: auto;

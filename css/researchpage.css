@@ -1,0 +1,31 @@
+
+.project-body {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.project-info {
+    padding: 2vw;
+}
+
+.project-title {
+    font-size: 2vw;
+    padding-bottom: 2vh;
+}
+
+.project-images img {
+    height: 50vh;
+}
+
+.spacer{
+    min-height:10vh;
+}
