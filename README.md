@@ -32,3 +32,11 @@ scroll thru projects: each project has a title, a blurb, and an image
 
 * ~~Sand Printing~~
 * ~~Hive Toy~~
+
+
+## TO ADD ADDITIONAL IMAGES
+
+* place image in subfolder of /images
+* go to design or research page
+* look for comment that says: <-- PLACE ADDITIONAL IMAGES HERE -->
+* add img tag, with src="images/subfolder/yourimage.png"

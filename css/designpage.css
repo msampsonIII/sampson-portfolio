@@ -61,7 +61,10 @@ img{
     font-size: 2vw;
     padding-bottom: 2vh;
 }
-
+.project-images{
+    display:grid;
+    grid-template-rows:auto;
+}
 .project-images img {
     height: 50vh;
 }
