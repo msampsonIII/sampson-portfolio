@@ -73,7 +73,7 @@ padding: 2.5vw;
 .name-subtitle{
   font-size: 2.5vw;
   display:grid;
-  grid-template-columns: 35% 33% 30%;
+  grid-template-columns: 33% 33% 30%;
   font-style: italic;
  
 }
