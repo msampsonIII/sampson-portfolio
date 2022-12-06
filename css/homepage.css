@@ -78,7 +78,7 @@ padding: 2.5vw;
   font-style:italic;
  
 }
-/*
+
 #designer{
   animation: slideInLeft 1s forwards;
 }
@@ -102,7 +102,7 @@ padding: 2.5vw;
     transform: translateX(0);
   }
 }
-*/
+
 .hp-footer{
   position:fixed;
   bottom:0;
