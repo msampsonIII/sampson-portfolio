@@ -74,9 +74,9 @@ padding: 2.5vw;
 .name-subtitle{
   font-size: 2vw;
   display:grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 29% 33% 33%;
   font-style:italic;
-/*  
+ 
 }
 #designer{
   animation: slideInLeft 1s forwards;
@@ -101,7 +101,7 @@ padding: 2.5vw;
     transform: translateX(0);
   }
 }
-*/
+
 .hp-footer{
   position:fixed;
   bottom:0;
