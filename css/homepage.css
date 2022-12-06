@@ -85,7 +85,7 @@ padding: 2.5vw;
 }
 
 @keyframes slideInLeft {
-  5% {
+  20% {
     transform: translateX(-200%);
   }
   100% {
