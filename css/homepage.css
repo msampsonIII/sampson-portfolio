@@ -88,8 +88,8 @@ padding: 2.5vw;
   0% {
     transform: translateX(-200%);
   }
-  120% {
-    transform: translateX(0);
+  100% {
+    transform: translateX(5);
   }
 }
 @keyframes slideInRight {
