@@ -72,9 +72,9 @@ padding: 2.5vw;
   font-size: 4vw;
 }
 .name-subtitle{
-  font-size: 2vw;
+  font-size: 2.5vw;
   display:grid;
-  grid-template-columns: 0% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
   font-style:italic;
  
 }
