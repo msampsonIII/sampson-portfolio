@@ -12,7 +12,7 @@
 img{
    
     width: 50%;
-    height: auto;
+    margin: 80%;
     display: block;
     
     filter: gray; /* IE6-9 */
