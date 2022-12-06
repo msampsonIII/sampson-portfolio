@@ -16,7 +16,6 @@ a{
   color: black;
 }
 
-
 .homepage-container{
     display: grid;
     grid-template-rows: 10% 80% 10%;
@@ -74,7 +73,7 @@ padding: 2.5vw;
 .name-subtitle{
   font-size: 2.5vw;
   display:grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 30% 33% 33%;
   font-style: italic;
  
 }
@@ -108,7 +107,7 @@ padding: 2.5vw;
   bottom:0;
   /* left:0; */
   color: black;
-  background-color: white;
+  background-color: black;
   width:100%;
   display:flex;
   align-content: center;
