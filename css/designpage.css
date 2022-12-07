@@ -4,12 +4,26 @@ img{
 .matrix-container{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    padding: 20%;
-    
+    padding: 10%;
     align-content: center;
     justify-content: center;
     grid-row-gap: 2vh;
+
+    
 }
+
+@media (max-width: 1200px) {
+    .matrix-container {
+        display: grid;
+        grid-template-columns: 30%;
+        grid-template-rows: 250% auto auto;
+        align-content: center;
+        justify-content: center;
+        padding: 1em;
+        
+    }
+}
+
 .matrix-element{
     width: 25vh;
     height: 25vh;
