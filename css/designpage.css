@@ -4,23 +4,33 @@ img{
 .matrix-container{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    padding: 10%;
-    align-content: center;
-    justify-content: center;
-    grid-row-gap: 2vh;
+    padding: 5%;
+
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 3vh;
+    margin-bottom: 10px;
+   
 
     
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 641px) {
+    .left-header {
+        display: none;
+        justify-content: center;
+        width: 0%;
+        margin-left: 0%;
+    }
+}
+
+
+@media (max-width: 850px) {
     .matrix-container {
         display: grid;
         grid-template-columns: 30%;
-        grid-template-rows: 250% auto auto;
-        align-content: center;
-        justify-content: center;
+        margin-bottom: 20px;
         padding: 1em;
-        
     }
 }
 
@@ -50,8 +60,6 @@ img{
 .matrix-img-container img:hover{
     transform:scale(110%);
 }
-
-
 
 .project-body {
     display: grid;
@@ -85,4 +93,19 @@ img{
 
 .spacer{
     min-height:10vh;
+}
+
+.back_to_top {
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    
+}
+
+
+.back-to-top:hover {
+    cursor: pointer;
 }
