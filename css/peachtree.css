@@ -53,7 +53,14 @@
      text-align: left;
 }
 
-
+.image_title{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: .9em;
+    font-style: italic;
+    font-weight: 400;
+}
 
 @media screen and (max-width: 641px) {
     .left-header {
@@ -74,6 +81,7 @@
 
 .projectimgwrap img {
     width: 60%;
+    height: 95%;
     margin: 0 auto;
     border-radius: 0;
     overflow: auto;
