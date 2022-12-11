@@ -1,0 +1,99 @@
+
+@media screen and (max-width: 641px) {
+    .left-header {
+        display: none;
+        justify-content: center;
+        width: 0%;
+        margin-left: 0%;
+    }
+}
+
+.medium_spacer {
+    height: 5px;
+} 
+.large_spacer {
+    height: 25px;
+} 
+
+.spacer {
+    height: 30px;
+}
+
+.projects-body {
+    display:block;
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+    
+.project_title{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.project_subtitle{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: .9em;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.project_text{
+     font-size: 0.8em;
+     font-weight: 230;
+     width: 60%;
+     margin: auto;
+     margin-top: 12px;
+     margin-bottom: 5px;
+     text-align: left;
+}
+
+.image_title{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: .9em;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 641px) {
+    .left-header {
+        disp
+        font-size: 11px;
+        font-weight: 230;
+        width: 60%;
+        margin: auto;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        text-align: left;
+}
+}
+.project_credits {
+
+    font-size: 11px;
+}
+
+.projectimgwrap img {
+    width: 60%;
+    height: 95%;
+    margin: 0 auto;
+    border-radius: 0;
+    overflow: auto;
+    border-radius: none;
+    cursor: url(images/main/openLightbox.svg), auto;
+}
+hr {
+    width: 50%;
+}
+
+#line {
+    float: left;
+    width: 731px;
+    height: 10px;
+}

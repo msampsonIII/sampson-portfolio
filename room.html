@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Portfolio of Myles Sampson" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="stylesheet" href="/css/designpage.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href=" css/lightbox.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Myles Sampson</title>
+</head>
+
+<script>
+    function interact(id) {
+        //console.log("interacted with id", id);
+        //console.log($(".matrix-container"))
+        $(".matrix-container").css("display", "none");
+        //console.log($(".project-container #" + id))
+        $("div#" + id).css("display","grid");
+    }
+</script>
+
+<body style="margin:0px;">
+    <div class="homepage-container">
+        <div class="hp-header">
+            <div class="left-header">Myles Sampson</div>
+            <div class="header-text">
+                <a href="/index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/design.html">Design</a>
+                <a href="/research.html">Research</a>
+            </div>
+        </div>
+        <!-- PAGE CONTENT-->
+        <div class="projects-body">  
+            <div class="large_spacer"></div>
+            <!--Big Project Image--> 
+            <a href="images/Room/Room-1.jpg" data-lightbox="Room">
+                <div class="projectimgwrap">
+                    <img src="images/Room/Room-1.jpg" alt="">
+                </div>
+            </a>
+            
+            <div class="medium_spacer"></div>
+            <!-- Project Title--> 
+            <div class="project_title">
+                Room-EZ
+            </div>
+            <!-- Project SubTitle--> 
+            <div class="project_subtitle">
+                <!--Project Location-->
+                Thurgood Marshall Hackathon
+                <br>
+                
+            </div>
+           
+            <div class="project_credits"> 
+                <b>Year:</b> 2018
+                <b>Collaborators:</b> Tibbits, Kernizan, Rustrom, Sampson
+                
+            </div>
+
+
+            <!-- Project Text-->
+            <div class="project_text">
+                <p> This mobile application stream lines applying for housing and choosing a roommate all in the palm of your hand.
+                     The housing application processes at colleges and universities are extremely antiquated, often times roommate selection and housing locations 
+                     are left to chance for students. This mobile app removes the need for paper applications making the 
+                     entire housing application process digital; the app incorporates existing user data and existing facilities. 
+                     Users have the option to select a roommate based on the profile at their college and university and 
+                     they are able to find a new roommate or select an established friend.
+
+                    <br>
+                    <br>
+                    Users also have the ability to select the housing types they are looking for while receiving real time data on the building. 
+                    As a result, the application gives the user to ability to view available housing options, current prices for housing, location and amenities. 
+                    The app allows for users to submit reviews, photos, and video tours of housing options.  
+                    The app gives the power to the user to be able to be choose and plan their housing experience so students can look forward to successful 
+                    and memorable semester.
+
+                    <br> 
+                    <br>
+                    </p>
+                    <p>
+                     </p>
+                     
+                    
+            </div>
+            <hr>
+            <div class="large_spacer"></div>
+            <!--Additional Project Images-->
+
+            <!--Project Image 2-->
+            <a href="images/Room/Room-2.jpg" data-lightbox="Room">
+                <div class="projectimgwrap">
+                    <img src="images/Room/Room-2.jpg" alt="">
+                </div>
+            </a>
+            <!--Image Title-->
+            <div class="image_title">
+                <span></span>
+                </div>
+            <!--Image Text-->
+            <div class="image_text">
+                <span></span>
+                </div>
+            
+              
+            <!--Project Image 3-->
+            <div class="large_spacer"></div>
+            <a href="images/Room/Room-3.jpg" data-lightbox="Room">
+                <div class="projectimgwrap">
+                    <img src="images/Room/Room-3.jpg" alt="">
+                </div>
+            </a>
+            <!--Image Title-->
+            <div class="image_title">
+                <span></span>
+                </div>
+            <!--Image Text-->
+            <div class="image_text">
+                <span></span>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--Additional Project Images-->
+            <!--Project Image 1
+            <a href="" data-lightbox="Peachtree">
+                <div class="projectimgwrap">
+                    <img src="" alt="">
+                </div>
+            </a>
+            IMAGE TITLE 
+            <div class="image_title">
+                <span></span>
+                </div>
+            IMAGE TEXT
+            <div class="image_text">
+                <span></span>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+            <div class="large_spacer"></div>
+            -->
+            <div class="large_spacer"></div>
+            <hr>
+            <!--BACK TO TOP-->
+            <div class="back_to_top" style="display: block;">
+                <b>UP</b>
+                <!--<span>Top</span>-->
+            </div>
+            <div class="spacer"></div>
+        </div>
+        <div class="hp-footer">
+            <div class="footer-text">
+                <a href="mailto:msamp@mit.edu">msamp@mit.edu</a> | Cambridge, MA | Copyright Sampson Research Studio
+                2022
+            </div>
+        </div>
+
+    </div>
+    <!--BACK TO TOP SCRIPT-->
+    <script>
+        
+        var $backToTop = $(".back_to_top");
+        $backToTop.hide();
+
+
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 100) {
+                $backToTop.fadeIn();
+            } else {
+                $backToTop.fadeOut();
+            }
+        });
+
+        $backToTop.on('click', function(e) {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 500);
+        });
+    
+    </script>
+
+    <!--LIGHTBOX-->
+    <script src="lightbox.js"></script>
+    <script>
+        lightbox.option({
+            'disableScrolling': true,
+            'fitImagesInViewport': true
+        })
+    </script>
+   
+
+
+</body>
+
+</html>
