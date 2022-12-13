@@ -5,11 +5,12 @@ img{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     padding: 5%;
-
     margin-left: auto;
     margin-right: auto;
     grid-gap: 3vh;
     margin-bottom: 10px;
+    text-align:justifyP
+    
    
 
     
@@ -28,9 +29,10 @@ img{
 @media (max-width: 850px) {
     .matrix-container {
         display: grid;
-        grid-template-columns: 30%;
+        grid-template-columns: 40%;
         margin-bottom: 20px;
         padding: 1em;
+        
     }
 }
 
@@ -45,17 +47,25 @@ img{
     justify-content: center;
     font-style:italic;
     text-align:center;
+    
 }
 .matrix-img-container{
-    height:90%;
-    width:90%;
+    height:100%;
+    width: 100%;
     overflow:hidden;
     display:flex;
     align-content: center;
     justify-content: center;
+    border-radius: 2%;
+    
 }
 .matrix-img-container img{
-    height:20vh;
+  
+    top: 0;
+   
+    object-fit: cover;
+    width: 20vh;
+    height: 20vh;
     transition-duration: 0.5s;
 
 }
@@ -97,6 +107,10 @@ img{
     min-height:10vh;
 }
 
+.spacer-small{
+    height: 5px;
+}
+
 .back_to_top {
     position: fixed;
     right: 0;
@@ -110,4 +124,8 @@ img{
 
 .back-to-top:hover {
     cursor: pointer;
+}
+
+.text-help{
+    padding: 10px 0;
 }
