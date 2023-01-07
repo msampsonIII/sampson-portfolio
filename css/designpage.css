@@ -95,6 +95,12 @@ img{
     font-size: 2vw;
     padding-bottom: 2vh;
 }
+
+.project_text {
+    font-size: 1vw;
+    padding-bottom: 1vh;
+}
+
 .project-images{
     display:grid;
     grid-template-rows:auto;
@@ -102,6 +108,12 @@ img{
 .project-images img {
     height: 50vh;
 }
+.projectimgwrap{
+    display: block;
+
+}
+
+
 
 .spacer{
     min-height:10vh;

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Portfolio of Myles Sampson" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="stylesheet" href="/css/designpage.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Myles Sampson</title>
+</head>
+
+<script>
+    function interact(id) {
+        //console.log("interacted with id", id);
+        //console.log($(".matrix-container"))
+        $(".matrix-container").css("display", "none");
+        //console.log($(".project-container #" + id))
+        $("div#" + id).css("display","grid");
+    }
+</script>
+
+<body style="margin:0px;">
+    <div class="homepage-container">
+        <div class="left-header">Myles Sampson</div>
+        <div class="hp-header">
+            <div class="header-text">
+                <a href="/index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/design.html">Projects</a>
+                <a href="/research.html">Research</a>
+                <a href="/teaching.html">Teaching</a>
+            </div>
+        </div>
+
+        <div class="matrix-container">
+
+            <a href="iap.html"><div class="matrix-element">
+                <div class="spacer"></div>
+                <div class="matrix-img-container">
+                    <img src="images/IAP/IAP-1.jpg">
+                </div>
+                <div class="text-help"> <div>ARCHITECTURAL ROBOTICS WORKSHOP</div> </div>
+            </div></a>
+
+
+            <a href="core.html"><div class="matrix-element">
+                <div class="spacer"></div>
+                <div class="matrix-img-container">
+                    <img src="images/Core/Core-12.jpg">
+                </div>
+                <div class="text-help"> <div>CORE-1 CASTING WORKSHOP</div> </div>
+            </div></a>
+
+            <a href="h22.html"><div class="matrix-element">
+                <div class="spacer"></div>
+                <div class="matrix-img-container">
+                    <img src="images/H22/H22-14.jpg">
+                </div>
+                <div class="text-help"> <div>IKEA H22 FESTIVAL</div> </div>
+            </div></a>
+
+            
+
+            
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="hp-footer">
+            <div class="footer-text">
+                <a href="mailto:msamp@mit.edu">msamp@mit.edu</a> | Cambridge, MA | Copyright Sampson Research Studio
+                2023
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
