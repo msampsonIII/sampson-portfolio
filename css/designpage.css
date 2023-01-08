@@ -25,6 +25,26 @@ img{
     }
 }
 
+@media screen and (max-width: 500px) {
+    .hp-header{
+      float: none;
+      display: block;
+     
+  }
+  .header-text{
+    align-content: center;
+    display: block;
+    float: none;
+  }
+  .header-text a {
+    color:black;
+    margin-top: 3vh;
+    margin-right: 1vw;
+    font-size: 11pt;
+  
+  }
+  }
+
 
 @media (max-width: 850px) {
     .matrix-container {
