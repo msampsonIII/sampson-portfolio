@@ -2,6 +2,7 @@ img{
     border-radius: 2%;
 }
 .matrix-container{
+
     display: grid;
     grid-template-columns: 33% 33% 33%;
     padding: 5%;
@@ -11,10 +12,8 @@ img{
     margin-bottom: 10px;
     text-align:justifyP
     
-   
-
-    
 }
+
 
 @media screen and (max-width: 641px) {
     .left-header {
@@ -22,6 +21,7 @@ img{
         justify-content: center;
         width: 0%;
         margin-left: 0%;
+        margin-top: 12px;
     }
 }
 

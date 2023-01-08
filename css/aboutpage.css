@@ -17,7 +17,7 @@ img{
     height: auto;
     margin: auto;
     display: block;
-    
+    padding-top: 12px;
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
     filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
@@ -32,3 +32,32 @@ img{
      
     border-radius: 5%;
 }
+@media (max-width: 500px) {
+    .ab-body {
+        display: block;
+        grid-template-columns: 40%;
+        margin-bottom: 20px;
+        padding: 1em;
+        
+    }
+    .left-header {
+        display: none;
+        justify-content: center;
+        width: 0%;
+        margin-left: 0%;
+        }
+        
+    .bio{
+        font-size: 11pt;
+        margin: auto;
+        width: 90%;
+        padding: 5px;
+        padding-top: 12px;
+    }
+
+        
+
+
+
+
+    }
