@@ -106,6 +106,7 @@ a{
     align-content: center;
     text-align: center;
     text-justify: center;
+    cursor: pointer;
 }
 
 .intro-text{
