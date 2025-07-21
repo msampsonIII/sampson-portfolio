@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="/css/projects.css">
     <link rel="stylesheet" href=" css/lightbox.css">
     <link rel="stylesheet" href="/css/fonts.css">
-
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <title>Myles Sampson</title>
 </head>
@@ -239,13 +238,17 @@
         </div>
         <div class="hp-footer">
             <div class="footer-text">
-                <a href="mailto:msamp@mit.edu">msamp@mit.edu</a> | Cambridge, MA | Copyright Sampson Research Studio
-                2023
+                <a href="mailto:mbsampso@andrew.cmu.edu">mbsampso@andrew.cmu.edu</a> | Pittsburgh, PA | Copyright Sampson Research Studio
+                <span id="cp-year"></span>
             </div>
         </div>
 
     </div>
     <!--BACK TO TOP SCRIPT-->
+    <script>
+        document.getElementById("cp-year").textContent = new Date().getFullYear();
+    </script>
+    
     <script>
         
         var $backToTop = $(".back_to_top");
